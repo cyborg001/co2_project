@@ -1,0 +1,4 @@
+django
+pylint
+pytest
+click
