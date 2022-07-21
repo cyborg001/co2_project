@@ -28,4 +28,4 @@ jobs:
         
     - name: Run Tests
       run: |
-        python project/manage.py runserver
+        project/make lint
