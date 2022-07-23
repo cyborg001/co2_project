@@ -1,5 +1,7 @@
+from django.urls import path
+
 from co2_app import views
 
 urlpatterns = [
-    path('co2_app', views.index, name='index'),
+    path('', views.index, name='index'),
 ]
