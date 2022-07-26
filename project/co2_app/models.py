@@ -25,3 +25,14 @@ class Pregunta(models.Model):
 
     def __str__(self):
         return f'{self.seleccion} para {self.tag} es {self.respuesta_consumo}'
+
+# class Constante(models.model):
+
+#     FEE = 0.18 # Factor de emision de energia electrica en kgCO2/kWh
+#     VPKWH = 518.94 # Valor promedio del kWh electrico
+#     ICIE = 3 # Indicador de columna indirecto electrio
+#     ICVPE = 17 # Indicador de columna indirecto del valor promedio electrico 
+#     FEEE_SIN = 0.18 # Factor de emision de energia electrica del SIN en kgCO2/kWh
+#     FECOC = 1.98 # Factor de emision de gas natural generico en kgCO2/m3
+#     CFPGN = 3406.309259 # Cargo fijo promedio de gas propano en $COP
+#     CVPGN = 1672.633704 # Costo variable promedio de gas propano en $/m3
